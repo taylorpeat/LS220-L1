@@ -1,6 +1,6 @@
 var apples = 3,
     bananas = 1,
-    either_or = apples || bananas;
+    either_or = bananas || apples;
 
 console.log(either_or);
 
@@ -18,3 +18,7 @@ if (apples === bananas) {
     console.log("Not true...");
   }
 }
+
+var last_name = "Peat",
+    family_message = last_name == "Peat" ? "You're part of the family!" : "You're not family.";
+    
